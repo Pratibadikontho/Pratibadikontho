@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Calendar, Users, Star } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight, Calendar, Users, Star, User } from "lucide-react";
 import { members } from "@/data/members";
 import { events } from "@/data/events";
 
@@ -158,22 +158,14 @@ export default function HomePage() {
                 href={`/members/${member.id}`}
                 className="group flex flex-col items-center gap-4 rounded-xl border border-border bg-card p-6 text-center transition-all hover:shadow-lg"
               >
-                <div className="relative h-24 w-24 overflow-hidden rounded-full">
-                  <Image
-                    src={member.image}
-                    alt={`Photo of ${member.name}`}
-                    fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
+                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
+                  <User className="h-8 w-8 text-primary" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-card-foreground">
                     {member.name}
                   </h3>
                   <p className="text-sm text-primary">{member.position}</p>
-                  <p className="mt-1 text-xs text-muted-foreground">
-                    {member.department}
-                  </p>
                 </div>
               </Link>
             ))}
