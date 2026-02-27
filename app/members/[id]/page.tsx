@@ -12,7 +12,6 @@ import {
   Shield,
 } from "lucide-react";
 import { members } from "@/data/members";
-import ProfileQRCode from "@/components/profile-qr-code";
 
 /**
  * Member Profile Page (Dynamic Route)
@@ -61,14 +60,6 @@ export default async function MemberProfilePage({
 
   /* Show 404 if member not found */
   if (!member) notFound();
-
-  /**
-   * Build the full profile URL for the QR code.
-   * In production, replace this with your actual domain.
-   */
-  const profileUrl = process.env.NEXT_PUBLIC_SITE_URL
-    ? `${process.env.NEXT_PUBLIC_SITE_URL}/members/${member.id}`
-    : `/members/${member.id}`;
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-12">
@@ -190,10 +181,8 @@ export default async function MemberProfilePage({
           )}
         </div>
 
-        {/* Right column — QR code */}
+        {/* Right column — quick info */}
         <div className="flex flex-col gap-8">
-          <ProfileQRCode url={profileUrl} memberName={member.name} />
-
           {/* Quick Info Card */}
           <div className="rounded-2xl border border-border bg-card p-6">
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">

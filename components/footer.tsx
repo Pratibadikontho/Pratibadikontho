@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import SiteQRCode from "@/components/site-qr-code";
 
 /**
  * Footer Component
@@ -67,6 +68,11 @@ export default function Footer() {
               <li>protibadikontho.org</li>
             </ul>
           </div>
+        </div>
+
+        {/* Site QR Code */}
+        <div className="mt-10 flex justify-center border-t border-border pt-8">
+          <SiteQRCode />
         </div>
 
         {/* Copyright */}
