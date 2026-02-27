@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import {
   ArrowLeft,
@@ -84,9 +85,20 @@ export default async function MemberProfilePage({
       <div className="rounded-2xl border border-border bg-card p-8 md:p-10">
         <div className="flex flex-col items-center gap-6 md:flex-row md:items-start md:gap-10">
           {/* Avatar */}
-          <div className="flex h-32 w-32 shrink-0 items-center justify-center rounded-full bg-primary/10">
-            <User className="h-14 w-14 text-primary" />
-          </div>
+          {member.image ? (
+            <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-full">
+              <Image
+                src={member.image}
+                alt={`Photo of ${member.name}`}
+                fill
+                className="object-cover"
+              />
+            </div>
+          ) : (
+            <div className="flex h-32 w-32 shrink-0 items-center justify-center rounded-full bg-primary/10">
+              <User className="h-14 w-14 text-primary" />
+            </div>
+          )}
 
           {/* Name, position, category, location, joined */}
           <div className="flex-1 text-center md:text-left">

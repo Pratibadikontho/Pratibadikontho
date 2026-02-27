@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GraduationCap } from "lucide-react";
+import Image from "next/image";
 
 /**
  * Footer Component
@@ -15,7 +15,13 @@ export default function Footer() {
           {/* Brand section */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <GraduationCap className="h-7 w-7 text-primary" />
+              <Image
+                src="/images/logo.jpg"
+                alt="প্রতিবাদী কন্ঠ logo"
+                width={36}
+                height={36}
+                className="rounded-full"
+              />
               <span className="text-lg font-bold text-foreground">
                 {'প্রতিবাদী কন্ঠ'}
               </span>

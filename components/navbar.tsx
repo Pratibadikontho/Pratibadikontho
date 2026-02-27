@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 /**
  * Navbar Component
@@ -30,7 +31,13 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo and site name */}
         <Link href="/" className="flex items-center gap-2">
-          <GraduationCap className="h-8 w-8 text-primary" />
+          <Image
+            src="/images/logo.jpg"
+            alt="প্রতিবাদী কন্ঠ logo"
+            width={40}
+            height={40}
+            className="rounded-full"
+          />
           <span className="text-xl font-bold text-foreground">
             {'প্রতিবাদী কন্ঠ'}
           </span>
