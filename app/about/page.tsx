@@ -22,11 +22,10 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-foreground/55" />
         <div className="relative z-10 mx-auto max-w-3xl px-6 py-16 text-center">
           <h1 className="font-serif text-4xl font-bold text-primary-foreground md:text-5xl text-balance">
-            About UniClub
+            {'প্রতিবাদী কন্ঠ সম্পর্কে'}
           </h1>
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-primary-foreground/85">
-            A student-run organization dedicated to fostering leadership,
-            community, and meaningful campus experiences.
+            {'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ'}
           </p>
         </div>
       </section>
@@ -39,10 +38,7 @@ export default function AboutPage() {
           </h2>
           <div className="mt-6 flex flex-col gap-4 leading-relaxed text-muted-foreground">
             <p>
-              UniClub was founded in 2023 by a group of passionate students who
-              believed that university life should be more than just academics.
-              What started as a small gathering of like-minded individuals has
-              grown into one of the most active organizations on campus.
+              {'প্রতিবাদী কন্ঠ was founded in 2023 by a group of passionate students who believed that university life should be more than just academics. What started as a small gathering of like-minded individuals has grown into one of the most active organizations on campus.'}
             </p>
             <p>
               Over the years, we have organized workshops, galas, sports
@@ -52,10 +48,7 @@ export default function AboutPage() {
               professional networks, and create lasting memories.
             </p>
             <p>
-              Today, UniClub continues to grow with a dedicated team of officers
-              and a supportive community of members. We welcome students from all
-              backgrounds and disciplines who share our passion for making campus
-              life extraordinary.
+              {'Today, প্রতিবাদী কন্ঠ continues to grow with a dedicated team of officers and a supportive community of members. We welcome students from all backgrounds and disciplines who share our passion for making campus life extraordinary.'}
             </p>
           </div>
         </div>
@@ -122,7 +115,7 @@ export default function AboutPage() {
           <div className="flex items-center gap-3">
             <Users className="h-7 w-7 text-accent" />
             <h2 className="font-serif text-3xl font-bold text-foreground">
-              Why Join UniClub?
+              {'কেন প্রতিবাদী কন্ঠতে যোগ দেবেন?'}
             </h2>
           </div>
           <ul className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">

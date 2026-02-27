@@ -19,40 +19,28 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* =================== HERO SECTION =================== */}
-      <section className="relative flex min-h-[520px] items-center justify-center overflow-hidden">
-        {/* Background image */}
-        <Image
-          src="/images/hero-campus.jpg"
-          alt="University campus aerial view"
-          fill
-          className="object-cover"
-          priority
-        />
-        {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-foreground/60" />
-
+      <section className="flex min-h-[520px] items-center justify-center bg-primary">
         {/* Hero content */}
-        <div className="relative z-10 mx-auto max-w-3xl px-6 py-20 text-center">
+        <div className="mx-auto max-w-3xl px-6 py-20 text-center">
           <h1 className="font-serif text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
-            Welcome to UniClub
+            {'প্রতিবাদী কন্ঠ'}
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-primary-foreground/85 md:text-lg">
-            Building a vibrant campus community where every student can grow,
-            connect, and make a lasting difference.
+            {'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ'}
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="/events"
-              className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+              className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent/90"
             >
-              Upcoming Events
+              Events
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="/members"
               className="inline-flex items-center gap-2 rounded-lg border border-primary-foreground/30 px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10"
             >
-              Meet Our Team
+              Members
             </Link>
           </div>
         </div>
@@ -84,7 +72,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between">
             <div>
               <h2 className="font-serif text-3xl font-bold text-foreground">
-                Upcoming Events
+                Events
               </h2>
               <p className="mt-2 text-muted-foreground">
                 Don&apos;t miss out on our latest activities
@@ -148,7 +136,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between">
             <div>
               <h2 className="font-serif text-3xl font-bold text-foreground">
-                Meet Our Team
+                Members
               </h2>
               <p className="mt-2 text-muted-foreground">
                 The people behind the club
@@ -208,8 +196,7 @@ export default function HomePage() {
             Ready to Join Us?
           </h2>
           <p className="mx-auto mt-4 max-w-lg leading-relaxed text-muted-foreground">
-            Whether you want to develop new skills, make friends, or create
-            memorable experiences, UniClub is the place for you.
+            {'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ'}
           </p>
           <Link
             href="/about"

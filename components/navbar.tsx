@@ -32,7 +32,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <GraduationCap className="h-8 w-8 text-primary" />
           <span className="text-xl font-bold text-foreground">
-            UniClub
+            {'প্রতিবাদী কন্ঠ'}
           </span>
         </Link>
 

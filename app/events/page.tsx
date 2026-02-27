@@ -30,7 +30,7 @@ export default function EventsPage() {
       {upcomingEvents.length > 0 && (
         <section className="mt-12">
           <h2 className="font-serif text-2xl font-bold text-foreground">
-            Upcoming Events
+            Events
           </h2>
           <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2">
             {upcomingEvents.map((event) => (
