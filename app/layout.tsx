@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
+import PageTransition from '@/components/page-transition'
 import './globals.css'
 
 /* Fonts — Inter for body, Playfair Display for headings */
@@ -45,7 +46,9 @@ export default function RootLayout({
     <html lang="en" className={`${_inter.variable} ${_playfair.variable}`}>
       <body className="font-sans antialiased">
         <Navbar />
-        <main>{children}</main>
+        <main>
+          <PageTransition>{children}</PageTransition>
+        </main>
         <Footer />
         <Analytics />
       </body>

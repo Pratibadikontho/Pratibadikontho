@@ -124,3 +124,34 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ===== Page transition animations ===== */
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes page-fade-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+.page-enter {
+  animation: page-fade-in 0.25s ease-out both;
+}
+
+.page-exit {
+  animation: page-fade-out 0.15s ease-in both;
+}
