@@ -19,7 +19,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* =================== HERO SECTION =================== */}
-      <section className="flex min-h-[520px] items-center justify-center bg-primary">
+      <section className="flex min-h-[520px] items-center justify-center bg-[#d8382cec]">
         {/* Hero content */}
         <div className="mx-auto max-w-3xl px-6 py-20 text-center">
           <h1 className="font-serif text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
@@ -158,9 +158,20 @@ export default function HomePage() {
                 href={`/members/${member.id}`}
                 className="group flex flex-col items-center gap-4 rounded-xl border border-border bg-card p-6 text-center transition-all hover:shadow-lg"
               >
-                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
-                  <User className="h-8 w-8 text-primary" />
-                </div>
+                {member.image ? (
+                  <div className="relative h-20 w-20 overflow-hidden rounded-full">
+                    <Image
+                      src={member.image}
+                      alt={`Photo of ${member.name}`}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
+                    <User className="h-8 w-8 text-primary" />
+                  </div>
+                )}
                 <div>
                   <h3 className="font-semibold text-card-foreground">
                     {member.name}

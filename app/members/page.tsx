@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { User } from "lucide-react";
 import { members } from "@/data/members";
 
@@ -38,10 +39,21 @@ export default function MembersPage() {
               href={`/members/${member.id}`}
               className="group flex items-center gap-4 rounded-xl border border-border bg-card p-6 transition-all hover:shadow-lg"
             >
-              {/* Avatar placeholder */}
-              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary/10">
-                <User className="h-6 w-6 text-primary" />
-              </div>
+              {/* Avatar */}
+              {member.image ? (
+                <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full">
+                  <Image
+                    src={member.image}
+                    alt={`Photo of ${member.name}`}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              ) : (
+                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary/10">
+                  <User className="h-6 w-6 text-primary" />
+                </div>
+              )}
 
               {/* Member info */}
               <div className="flex flex-col gap-0.5">
@@ -69,10 +81,21 @@ export default function MembersPage() {
               href={`/members/${member.id}`}
               className="group flex items-center gap-4 rounded-xl border border-border bg-card p-6 transition-all hover:shadow-lg"
             >
-              {/* Avatar placeholder */}
-              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-accent/10">
-                <User className="h-6 w-6 text-accent" />
-              </div>
+              {/* Avatar */}
+              {member.image ? (
+                <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full">
+                  <Image
+                    src={member.image}
+                    alt={`Photo of ${member.name}`}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              ) : (
+                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-accent/10">
+                  <User className="h-6 w-6 text-accent" />
+                </div>
+              )}
 
               {/* Member info */}
               <div className="flex flex-col gap-0.5">
