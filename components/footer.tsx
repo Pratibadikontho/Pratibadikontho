@@ -55,10 +55,10 @@ export default function Footer() {
               Contact Us
             </h3>
             <ul className="flex flex-col gap-2 text-sm text-muted-foreground">
-              <li>123 University Avenue</li>
-              <li>Campus Building B, Room 204</li>
-              <li>club@university.edu</li>
-              <li>+1 234 567 890</li>
+              <li>Water Works Road, Chawk Bazar, Old Dhaka</li>
+              <li>Building B, Room 204</li>
+              <li>pratibadikantho.bd@gmail.com</li>
+              <li>protibadikontho.org</li>
             </ul>
           </div>
         </div>
