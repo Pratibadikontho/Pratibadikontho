@@ -10,8 +10,8 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
 
 export const metadata: Metadata = {
-  title: 'UniClub — University Club',
-  description: 'The official website of the University Club. Discover events, meet our members, and join the community.',
+  title: 'প্রতিবাদী কন্ঠ',
+  description: 'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ',
   generator: 'v0.app',
   icons: {
     icon: [

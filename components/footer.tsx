@@ -17,12 +17,11 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <GraduationCap className="h-7 w-7 text-primary" />
               <span className="text-lg font-bold text-foreground">
-                UniClub
+                {'প্রতিবাদী কন্ঠ'}
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Building a vibrant campus community where every student can grow,
-              connect, and make a difference.
+              {'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ'}
             </p>
           </div>
 
@@ -66,7 +65,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-10 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          {new Date().getFullYear()} University Club. All rights reserved.
+          {'© '}{new Date().getFullYear()}{' প্রতিবাদী কন্ঠ. All rights reserved.'}
         </div>
       </div>
     </footer>
