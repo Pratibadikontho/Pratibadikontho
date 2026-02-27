@@ -1,7 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Mail, Phone, Award, Sparkles } from "lucide-react";
+import {
+  ArrowLeft,
+  User,
+  MapPin,
+  CalendarDays,
+  Briefcase,
+  Quote,
+  ClipboardList,
+  Shield,
+} from "lucide-react";
 import { members } from "@/data/members";
 import ProfileQRCode from "@/components/profile-qr-code";
 
@@ -9,12 +17,12 @@ import ProfileQRCode from "@/components/profile-qr-code";
  * Member Profile Page (Dynamic Route)
  * ------------------------------------
  * Displays a single member's full profile when you visit /members/[id].
- * For example: /members/john-doe
+ * For example: /members/haji-md-azim-mia
  *
  * HOW IT WORKS:
  * 1. Next.js passes the "id" from the URL as a parameter
  * 2. We search the members array in /data/members.js for that id
- * 3. If found, we display the member's full profile
+ * 3. If found, we display the member's detailed profile
  * 4. If not found, we show a 404 page
  */
 
@@ -24,13 +32,19 @@ export function generateStaticParams() {
 }
 
 /* Dynamic metadata for SEO */
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
   const { id } = await params;
   const member = members.find((m) => m.id === id);
   if (!member) return { title: "Member Not Found" };
   return {
-    title: `${member.name} — UniClub`,
-    description: member.bio.slice(0, 160),
+    title: `${member.name} — প্রতিবাদী কন্ঠ`,
+    description: member.bio
+      ? `${member.name} — ${member.position}. ${member.bio}`
+      : `${member.name} — ${member.position} at প্রতিবাদী কন্ঠ`,
   };
 }
 
@@ -50,15 +64,13 @@ export default async function MemberProfilePage({
   /**
    * Build the full profile URL for the QR code.
    * In production, replace this with your actual domain.
-   * The QR code will link to this URL when scanned.
    */
-  const profileUrl =
-    process.env.NEXT_PUBLIC_SITE_URL
-      ? `${process.env.NEXT_PUBLIC_SITE_URL}/members/${member.id}`
-      : `/members/${member.id}`;
+  const profileUrl = process.env.NEXT_PUBLIC_SITE_URL
+    ? `${process.env.NEXT_PUBLIC_SITE_URL}/members/${member.id}`
+    : `/members/${member.id}`;
 
   return (
-    <div className="mx-auto max-w-5xl px-6 py-12">
+    <div className="mx-auto max-w-4xl px-6 py-12">
       {/* Back button */}
       <Link
         href="/members"
@@ -68,103 +80,158 @@ export default async function MemberProfilePage({
         Back to Members
       </Link>
 
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
-        {/* ===== LEFT COLUMN: Photo, Contact, QR Code ===== */}
-        <div className="flex flex-col gap-6">
-          {/* Profile picture */}
-          <div className="relative mx-auto aspect-square w-full max-w-[280px] overflow-hidden rounded-2xl">
-            <Image
-              src={member.image}
-              alt={`Photo of ${member.name}`}
-              fill
-              className="object-cover"
-              priority
-            />
+      {/* ---- Hero Card ---- */}
+      <div className="rounded-2xl border border-border bg-card p-8 md:p-10">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:items-start md:gap-10">
+          {/* Avatar */}
+          <div className="flex h-32 w-32 shrink-0 items-center justify-center rounded-full bg-primary/10">
+            <User className="h-14 w-14 text-primary" />
           </div>
 
-          {/* Contact info */}
-          <div className="flex flex-col gap-3 rounded-xl border border-border bg-card p-6">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">
-              Contact
-            </h3>
-            <a
-              href={`mailto:${member.email}`}
-              className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-primary"
-            >
-              <Mail className="h-4 w-4 shrink-0" />
-              {member.email}
-            </a>
-            <a
-              href={`tel:${member.phone.replace(/\s/g, "")}`}
-              className="flex items-center gap-3 text-sm text-muted-foreground transition-colors hover:text-primary"
-            >
-              <Phone className="h-4 w-4 shrink-0" />
-              {member.phone}
-            </a>
-          </div>
-
-          {/* QR Code — scan to visit this profile */}
-          <ProfileQRCode url={profileUrl} memberName={member.name} />
-        </div>
-
-        {/* ===== RIGHT COLUMN: Bio, Skills, Achievements ===== */}
-        <div className="flex flex-col gap-8 lg:col-span-2">
-          {/* Name and position */}
-          <div>
+          {/* Name, position, category, location, joined */}
+          <div className="flex-1 text-center md:text-left">
             <h1 className="font-serif text-3xl font-bold text-foreground md:text-4xl">
               {member.name}
             </h1>
-            <p className="mt-1 text-lg font-medium text-primary">
+            <p className="mt-2 text-lg font-medium text-primary">
               {member.position}
             </p>
-            <p className="text-sm text-muted-foreground">{member.department}</p>
-          </div>
 
-          {/* Bio */}
-          <div>
-            <h2 className="font-serif text-xl font-semibold text-foreground">
-              About
-            </h2>
-            <p className="mt-3 leading-relaxed text-muted-foreground">
-              {member.bio}
-            </p>
-          </div>
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-3 md:justify-start">
+              <span className="inline-flex items-center gap-1.5 rounded-md bg-secondary px-3 py-1 text-sm text-secondary-foreground">
+                <Shield className="h-3.5 w-3.5" />
+                {member.category}
+              </span>
 
-          {/* Skills */}
-          <div>
-            <h2 className="flex items-center gap-2 font-serif text-xl font-semibold text-foreground">
-              <Sparkles className="h-5 w-5 text-accent" />
-              Skills
-            </h2>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {member.skills.map((skill) => (
-                <span
-                  key={skill}
-                  className="rounded-lg border border-border bg-secondary px-3 py-1.5 text-sm text-secondary-foreground"
-                >
-                  {skill}
+              {member.joinedDate && (
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-secondary px-3 py-1 text-sm text-secondary-foreground">
+                  <CalendarDays className="h-3.5 w-3.5" />
+                  {"Joined " + member.joinedDate}
                 </span>
-              ))}
+              )}
+
+              {member.address && (
+                <span className="inline-flex items-center gap-1.5 rounded-md bg-secondary px-3 py-1 text-sm text-secondary-foreground">
+                  <MapPin className="h-3.5 w-3.5" />
+                  {member.address}
+                </span>
+              )}
             </div>
           </div>
+        </div>
+      </div>
 
-          {/* Achievements */}
-          <div>
-            <h2 className="flex items-center gap-2 font-serif text-xl font-semibold text-foreground">
-              <Award className="h-5 w-5 text-accent" />
-              Achievements
-            </h2>
-            <ul className="mt-3 flex flex-col gap-3">
-              {member.achievements.map((achievement) => (
-                <li
-                  key={achievement}
-                  className="flex items-start gap-3 text-sm leading-relaxed text-muted-foreground"
-                >
-                  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-accent" />
-                  {achievement}
-                </li>
-              ))}
-            </ul>
+      {/* ---- Content Grid ---- */}
+      <div className="mt-8 grid gap-8 md:grid-cols-3">
+        {/* Left column — bio, responsibilities, quote */}
+        <div className="flex flex-col gap-8 md:col-span-2">
+          {/* Bio Section */}
+          {member.bio && (
+            <section className="rounded-2xl border border-border bg-card p-6 md:p-8">
+              <div className="mb-4 flex items-center gap-2 text-foreground">
+                <Briefcase className="h-5 w-5 text-primary" />
+                <h2 className="text-lg font-semibold">{"পরিচিতি"}</h2>
+              </div>
+              <p className="leading-relaxed text-muted-foreground">
+                {member.bio}
+              </p>
+            </section>
+          )}
+
+          {/* Responsibilities Section */}
+          {member.responsibilities && member.responsibilities.length > 0 && (
+            <section className="rounded-2xl border border-border bg-card p-6 md:p-8">
+              <div className="mb-4 flex items-center gap-2 text-foreground">
+                <ClipboardList className="h-5 w-5 text-primary" />
+                <h2 className="text-lg font-semibold">{"দায়িত্বসমূহ"}</h2>
+              </div>
+              <ul className="flex flex-col gap-3">
+                {member.responsibilities.map(
+                  (item: string, index: number) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-accent" />
+                      <span className="leading-relaxed text-muted-foreground">
+                        {item}
+                      </span>
+                    </li>
+                  )
+                )}
+              </ul>
+            </section>
+          )}
+
+          {/* Quote Section */}
+          {member.quote && (
+            <section className="rounded-2xl border border-border bg-primary/5 p-6 md:p-8">
+              <div className="flex items-start gap-4">
+                <Quote className="h-8 w-8 shrink-0 text-primary/40" />
+                <div>
+                  <p className="font-serif text-lg italic leading-relaxed text-foreground">
+                    {'"' + member.quote + '"'}
+                  </p>
+                  <p className="mt-3 text-sm font-medium text-primary">
+                    {"— " + member.name}
+                  </p>
+                </div>
+              </div>
+            </section>
+          )}
+        </div>
+
+        {/* Right column — QR code */}
+        <div className="flex flex-col gap-8">
+          <ProfileQRCode url={profileUrl} memberName={member.name} />
+
+          {/* Quick Info Card */}
+          <div className="rounded-2xl border border-border bg-card p-6">
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">
+              {"সংক্ষিপ্ত তথ্য"}
+            </h3>
+            <dl className="flex flex-col gap-4">
+              <div>
+                <dt className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                  {"পদবি"}
+                </dt>
+                <dd className="mt-1 text-sm font-medium text-foreground">
+                  {member.position}
+                </dd>
+              </div>
+              <div className="h-px bg-border" />
+              <div>
+                <dt className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                  {"বিভাগ"}
+                </dt>
+                <dd className="mt-1 text-sm font-medium text-foreground">
+                  {member.category}
+                </dd>
+              </div>
+              {member.joinedDate && (
+                <>
+                  <div className="h-px bg-border" />
+                  <div>
+                    <dt className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                      {"যোগদান"}
+                    </dt>
+                    <dd className="mt-1 text-sm font-medium text-foreground">
+                      {member.joinedDate}
+                    </dd>
+                  </div>
+                </>
+              )}
+              {member.address && (
+                <>
+                  <div className="h-px bg-border" />
+                  <div>
+                    <dt className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                      {"অবস্থান"}
+                    </dt>
+                    <dd className="mt-1 text-sm font-medium text-foreground">
+                      {member.address}
+                    </dd>
+                  </div>
+                </>
+              )}
+            </dl>
           </div>
         </div>
       </div>
