@@ -28,12 +28,12 @@
 export const members = [
   /* ===================== ADVISORS ===================== */
   {
-    id: "mannan",
-    name: "Mannan",
+    id: "pintu",
+    name: "MD.PINTU AHMED",
     position: "Advisor",
     category: "Advisors",
     bio: "একজন অভিজ্ঞ উপদেষ্টা যিনি সংগঠনকে সঠিক পথে পরিচালনা করতে সর্বদা সহায়তা করেন।",
-    joinedDate: "2023",
+    joinedDate: "2022",
     responsibilities: [
       "সংগঠনের কার্যক্রমে পরামর্শ প্রদান",
       "নীতিনির্ধারণী সিদ্ধান্তে সহায়তা",
@@ -43,12 +43,12 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "liton-advisor",
-    name: "Liton",
+    id: "liton",
+    name: "DELOWAR HOSSAIN LITON",
     position: "Advisor",
     category: "Advisors",
     bio: "দীর্ঘদিনের অভিজ্ঞতা নিয়ে সংগঠনের উন্নয়নে গুরুত্বপূর্ণ ভূমিকা পালন করছেন।",
-    joinedDate: "2023",
+    joinedDate: "2025",
     responsibilities: [
       "সাংগঠনিক কাঠামো উন্নয়নে পরামর্শ",
       "বিশেষ অনুষ্ঠান পরিকল্পনায় সহায়তা",
@@ -58,12 +58,12 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "pintu-ahmed",
-    name: "Pintu Ahmed",
+    id: "mannan",
+    name: "ABDUL MANNAN",
     position: "Advisor",
     category: "Advisors",
     bio: "সমাজসেবায় নিবেদিতপ্রাণ একজন ব্যক্তি যিনি সংগঠনের প্রতিটি কাজে সক্রিয় অংশগ্রহণ করেন।",
-    joinedDate: "2023",
+    joinedDate: "2022",
     responsibilities: [
       "আর্থিক পরিকল্পনায় পরামর্শ প্রদান",
       "সামাজিক কর্মকাণ্ডে নেতৃত্ব",
@@ -74,7 +74,7 @@ export const members = [
   },
   {
     id: "shahadat",
-    name: "Shahadat",
+    name: "MD. SAHADAT HOSSAIN",
     position: "Advisor",
     category: "Advisors",
     bio: "সংগঠনের প্রতিষ্ঠাকাল থেকেই যুক্ত, অভিজ্ঞতা ও প্রজ্ঞা দিয়ে সকলকে অনুপ্রাণিত করেন।",
@@ -89,7 +89,7 @@ export const members = [
   },
   {
     id: "joynal-molla",
-    name: "Joynal Molla",
+    name: "HAZI MOHAMMAD JOYNAL",
     position: "Advisor",
     category: "Advisors",
     bio: "একজন আদর্শবান ব্যক্তি যিনি তরুণ প্রজন্মকে সঠিক পথে পরিচালনা করতে সদা তৎপর।",
@@ -104,7 +104,7 @@ export const members = [
   },
   {
     id: "md-ruhul-amin",
-    name: "Md. Ruhul Amin",
+    name: "MD. RUHUL AMIN",
     position: "Advisor",
     category: "Advisors",
     bio: "সমাজসেবা ও শিক্ষায় নিবেদিত, সংগঠনের উন্নয়নে সর্বদা অবদান রাখেন।",
@@ -138,7 +138,7 @@ export const members = [
   },
   {
     id: "ismail",
-    name: "Ismail",
+    name: "md.Ismail Hossain",
     position: "Senior Vice President",
     category: "Executive Committee",
     bio: "সভাপতির অনুপস্থিতিতে সংগঠন পরিচালনার দায়িত্ব পালন করেন এবং গুরুত্বপূর্ণ সিদ্ধান্ত গ্রহণে সহায়তা করেন।",
@@ -292,6 +292,22 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
+    id: "rafi",
+    name: "NUR ALAM RAFI",
+    position: "Treasurer",
+    category: "Executive Committee",
+    bio: "কোষাধ্যক্ষ হলেন সংগঠনের আর্থিক দায়িত্বপ্রাপ্ত কর্মকর্তা। তিনি আয়-ব্যয়ের হিসাব সংরক্ষণ, তহবিল পরিচালনা এবং আর্থিক স্বচ্ছতা নিশ্চিত করেন।",
+    joinedDate: "2023",
+    responsibilities: [
+      "সংগঠনের সকল আয়-ব্যয়ের হিসাব সংরক্ষণ করা।",
+      "অর্থ ব্যয়ের ক্ষেত্রে সংগঠনের নীতিমালা অনুসরণ নিশ্চিত করা।",
+      "তহবিল সংগ্রহ ও সংরক্ষণে দায়িত্ব পালন করা",
+      "আর্থিক স্বচ্ছতা ও জবাবদিহিতা বজায় রাখা",
+    ],
+    quote: "স্বচ্ছ হিসাব, শক্ত ভিত্তি",
+    address: "ঢাকা, বাংলাদেশ",
+  },
+  {
     id: "hasibur",
     name: "Hasibur Rahman Hridoy",
     position: "Cultural Secretary",
@@ -321,23 +337,6 @@ export const members = [
       "দান ও সদকা কার্যক্রম ব্যবস্থাপনা",
     ],
     quote: "ধর্মের পথে চললে সমাজ হবে সুন্দর।",
-    address: "ঢাকা, বাংলাদেশ",
-  },
-  {
-    id: "ali",
-    name: "Md.Fazar Ali",
-    position: "Sports Secretary",
-    category: "Executive Committee",
-    bio: "সংগঠনের সাংস্কৃতিক কার্যক্রম পরিচালনা করেন। সাংস্কৃতিক অনুষ্ঠান ও সামাজিক সেবামূলক কাজে নেতৃত্ব দেন।",
-    joinedDate: "2023",
-    responsibilities: [
-      "খেলাধুলার টুর্নামেন্ট, প্রতিযোগিতা ও ইভেন্ট আয়োজন করা।",
-      "খেলোয়াড়দের তালিকা তৈরি ও সমন্বয় করা।",
-      "খেলার সরঞ্জাম ব্যবস্থাপনা করা।",
-      "দল গঠন ও প্রশিক্ষণের ব্যবস্থা করা।",
-      "ক্রীড়া সংক্রান্ত সিদ্ধান্ত বাস্তবায়নে নেতৃত্ব দেওয়া।",
-    ],
-    quote: "খেলাধুলা শুধু শরীর নয়, গড়ে তোলে নেতৃত্ব ও শৃঙ্খলা",
     address: "ঢাকা, বাংলাদেশ",
   },
   {
