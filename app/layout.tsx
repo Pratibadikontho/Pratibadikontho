@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Inter, Playfair_Display, Oswald } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
@@ -9,6 +9,7 @@ import './globals.css'
 /* Fonts — Inter for body, Playfair Display for headings */
 const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
+const _oswald = Oswald({ subsets: ["latin"], weight: ["700"], variable: "--font-oswald" })
 
 export const metadata: Metadata = {
   title: 'প্রতিবাদী কন্ঠ',
@@ -30,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${_inter.variable} ${_playfair.variable}`}>
+    <html lang="en" className={`${_inter.variable} ${_playfair.variable} ${_oswald.variable}`}>
       <body className="font-sans antialiased">
         <Navbar />
         <main>

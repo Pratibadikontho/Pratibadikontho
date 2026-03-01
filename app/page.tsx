@@ -33,7 +33,7 @@ export default function HomePage() {
 
         {/* Hero content */}
         <div className="relative z-10 mx-auto max-w-3xl px-6 py-20 text-center">
-          <h1 className="font-serif text-4xl font-bold leading-tight text-[#e74c3c] md:text-5xl lg:text-6xl text-balance">
+          <h1 className="text-4xl font-bold uppercase leading-tight tracking-wide text-[#e74c3c] md:text-5xl lg:text-7xl text-balance" style={{ fontFamily: 'var(--font-oswald), sans-serif' }}>
             {'প্রতিবাদী কন্ঠ'}
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-primary-foreground/85 md:text-lg">
