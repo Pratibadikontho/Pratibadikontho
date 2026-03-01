@@ -359,7 +359,6 @@ export const members = [
   },
 
   /* ===================== ACTIVE MEMBERS ===================== */
-
   {
     id: "ali",
     name: "Md.Fazar Ali",
