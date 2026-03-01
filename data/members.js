@@ -124,7 +124,7 @@ export const members = [
     name: "Haji Md. Azim Mia",
     position: "President",
     category: "Executive Committee",
-    image: "",
+    image: "/images/azim-mia.jpg"
     bio: "সংগঠনের সভাপতি হিসেবে সমগ্র কার্যক্রম পরিচালনা ও নেতৃত্ব প্রদান করেন। তাঁর দূরদর্শী নেতৃত্বে সংগঠন এগিয়ে যাচ্ছে।",
     joinedDate: "2023",
     responsibilities: [
