@@ -19,7 +19,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* =================== HERO SECTION =================== */}
-      <section className="flex min-h-[520px] items-center justify-center bg-[#214ee4e1]">
+      <section className="flex min-h-[520px] items-center justify-center bg-[#eb1717e8]">
         {/* Hero content */}
         <div className="mx-auto max-w-3xl px-6 py-20 text-center">
           <h1 className="font-serif text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
