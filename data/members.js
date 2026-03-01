@@ -138,7 +138,7 @@ export const members = [
   },
   {
     id: "ismail",
-    name: "md.Ismail Hossain",
+    name: "Md.Ismail Hossain",
     position: "Senior Vice President",
     category: "Executive Committee",
     bio: "সভাপতির অনুপস্থিতিতে সংগঠন পরিচালনার দায়িত্ব পালন করেন এবং গুরুত্বপূর্ণ সিদ্ধান্ত গ্রহণে সহায়তা করেন।",
