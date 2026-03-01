@@ -62,10 +62,10 @@ export default function Footer() {
               Contact Us
             </h3>
             <ul className="flex flex-col gap-2 text-sm text-muted-foreground">
-              <li>Water Works Road, Chawk Bazar, Old Dhaka</li>
-              <li>Building B, Room 204</li>
-              <li>pratibadikantho.bd@gmail.com</li>
-              <li>protibadikontho.org</li>
+              <li>65/3, Water Works Road, Chawk Bazar, Old Dhaka</li>
+              <li>কাদের মিয়ার বাড়ি, ২য় তলা</li>
+              <li>pratibadikantho2021@gmail.com</li>
+              <li>https://protibadikantho.com</li>
             </ul>
           </div>
         </div>
