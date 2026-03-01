@@ -19,26 +19,35 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* =================== HERO SECTION =================== */}
-      <section className="flex min-h-[520px] items-center justify-center bg-[#d8382cec]">
+      <section className="relative flex min-h-[520px] items-center justify-center overflow-hidden">
+        {/* Background image */}
+        <Image
+          src="/images/hero-cover.jpg"
+          alt="প্রতিবাদী কন্ঠ decorative background"
+          fill
+          className="object-cover"
+          priority
+        />
+
         {/* Hero content */}
-        <div className="mx-auto max-w-3xl px-6 py-20 text-center">
-          <h1 className="font-serif text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
+        <div className="relative z-10 mx-auto max-w-3xl px-6 py-20 text-center">
+          <h1 className="text-4xl font-bold uppercase leading-tight tracking-wide text-[#e74c3c] md:text-5xl lg:text-7xl text-balance" style={{ fontFamily: 'var(--font-oswald), sans-serif' }}>
             {'প্রতিবাদী কন্ঠ'}
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-primary-foreground/85 md:text-lg">
+          <p className="mx-auto mt-4 max-w-xl text-base font-medium leading-relaxed text-foreground/80 md:text-lg">
             {'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ'}
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="/events"
-              className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent/90"
+              className="inline-flex items-center gap-2 rounded-lg bg-[#e74c3c] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#c0392b]"
             >
               Events
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="/members"
-              className="inline-flex items-center gap-2 rounded-lg border border-primary-foreground/30 px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10"
+              className="inline-flex items-center gap-2 rounded-lg border-2 border-[#e74c3c] px-6 py-3 text-sm font-semibold text-[#e74c3c] transition-colors hover:bg-[#e74c3c]/10"
             >
               Members
             </Link>
