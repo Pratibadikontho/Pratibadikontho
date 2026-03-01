@@ -19,9 +19,20 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* =================== HERO SECTION =================== */}
-      <section className="flex min-h-[520px] items-center justify-center bg-[#eb1717e8]">
+      <section className="relative flex min-h-[520px] items-center justify-center overflow-hidden">
+        {/* Background image */}
+        <Image
+          src="/images/hero-bg.jpg"
+          alt="প্রতিবাদী কন্ঠ group photo"
+          fill
+          className="object-cover"
+          priority
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-black/60" />
+
         {/* Hero content */}
-        <div className="mx-auto max-w-3xl px-6 py-20 text-center">
+        <div className="relative z-10 mx-auto max-w-3xl px-6 py-20 text-center">
           <h1 className="font-serif text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
             {'প্রতিবাদী কন্ঠ'}
           </h1>
