@@ -32,6 +32,7 @@ export const members = [
     name: "MD.PINTU AHMED",
     position: "Advisor",
     category: "Advisors",
+    image: "/images/MD.PINTU AHMED.png",
     bio: "একজন অভিজ্ঞ উপদেষ্টা যিনি সংগঠনকে সঠিক পথে পরিচালনা করতে সর্বদা সহায়তা করেন।",
     joinedDate: "2022",
     responsibilities: [
