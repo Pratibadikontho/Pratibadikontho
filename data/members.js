@@ -218,6 +218,7 @@ export const members = [
     name: "Mahbub Alam Rohan",
     position: "Organizational Secretary",
     category: "Executive Committee",
+    image: "/images/Mahbub Alam Rohan.jpeg",
     bio: "সংগঠনের কাঠামোগত উন্নয়ন ও সদস্য সংগ্রহে নেতৃত্ব প্রদান করেন। সাংগঠনিক শক্তি বৃদ্ধিতে তিনি সর্বদা তৎপর।",
     joinedDate: "2023",
     responsibilities: [
