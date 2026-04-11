@@ -13,7 +13,7 @@ export default function AboutPage() {
       {/* ===== HERO SECTION ===== */}
       <section className="relative flex min-h-[360px] items-center justify-center overflow-hidden">
         <Image
-          src="/images/about-team.jpg"
+          src="/images/Banner.png"
           alt="University Club team group photo"
           fill
           className="object-cover"
