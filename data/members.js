@@ -96,6 +96,7 @@ export const members = [
     name: "HAZI MOHAMMAD JOYNAL",
     position: "Advisor",
     category: "Advisors",
+    image: "/images/HAZI MOHAMMAD JOYNAL.png",
     bio: "একজন আদর্শবান ব্যক্তি যিনি তরুণ প্রজন্মকে সঠিক পথে পরিচালনা করতে সদা তৎপর।",
     joinedDate: "2023",
     responsibilities: [
