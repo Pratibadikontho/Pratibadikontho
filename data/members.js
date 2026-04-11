@@ -64,6 +64,7 @@ export const members = [
     name: "ABDUL MANNAN",
     position: "Advisor",
     category: "Advisors",
+    image: "/images/ABDUL MANNAN.png",
     bio: "সমাজসেবায় নিবেদিতপ্রাণ একজন ব্যক্তি যিনি সংগঠনের প্রতিটি কাজে সক্রিয় অংশগ্রহণ করেন।",
     joinedDate: "2022",
     responsibilities: [
