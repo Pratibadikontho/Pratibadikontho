@@ -80,6 +80,7 @@ export const members = [
     name: "MD. SAHADAT HOSSAIN",
     position: "Advisor",
     category: "Advisors",
+    image: "/images/MD. SAHADAT HOSSAIN.jpeg",
     bio: "সংগঠনের প্রতিষ্ঠাকাল থেকেই যুক্ত, অভিজ্ঞতা ও প্রজ্ঞা দিয়ে সকলকে অনুপ্রাণিত করেন।",
     joinedDate: "2023",
     responsibilities: [
