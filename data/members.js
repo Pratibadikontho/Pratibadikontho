@@ -48,6 +48,7 @@ export const members = [
     name: "DELOWAR HOSSAIN LITON",
     position: "Advisor",
     category: "Advisors",
+    image: "/images/DELOWAR HOSSAIN LITON.png",
     bio: "দীর্ঘদিনের অভিজ্ঞতা নিয়ে সংগঠনের উন্নয়নে গুরুত্বপূর্ণ ভূমিকা পালন করছেন।",
     joinedDate: "2025",
     responsibilities: [
