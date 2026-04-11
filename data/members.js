@@ -173,6 +173,7 @@ export const members = [
     name: "Mamun Ahmed",
     position: "General Secretary",
     category: "Executive Committee",
+    image: "/images/Mamun Ahmed.png",
     bio: "সংগঠনের প্রশাসনিক কার্যক্রমের মূল পরিচালক। সকল সভার কার্যবিবরণী সংরক্ষণ ও দৈনন্দিন কার্যক্রম পরিচালনা করেন।",
     joinedDate: "2023",
     responsibilities: [
