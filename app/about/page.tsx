@@ -13,7 +13,7 @@ export default function AboutPage() {
       {/* ===== HERO SECTION ===== */}
       <section className="relative flex min-h-[360px] items-center justify-center overflow-hidden">
         <Image
-          src="/images/about-team.jpg"
+          src="/images/Banner.png"
           alt="University Club team group photo"
           fill
           className="object-cover"
@@ -22,7 +22,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-foreground/55" />
         <div className="relative z-10 mx-auto max-w-3xl px-6 py-16 text-center">
           <h1 className="font-serif text-4xl font-bold text-primary-foreground md:text-5xl text-balance">
-            {'প্রতিবাদী কন্ঠ সম্পর্কে'}
+            {'প্রতিবাদী কন্ঠ'}
           </h1>
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-primary-foreground/85">
             {'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ'}
