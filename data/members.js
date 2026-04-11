@@ -147,6 +147,7 @@ export const members = [
     name: "Md.Ismail Hossain",
     position: "Senior Vice President",
     category: "Executive Committee",
+    image: "/images/Md.Ismail Hossain.png",
     bio: "সভাপতির অনুপস্থিতিতে সংগঠন পরিচালনার দায়িত্ব পালন করেন এবং গুরুত্বপূর্ণ সিদ্ধান্ত গ্রহণে সহায়তা করেন।",
     joinedDate: "2023",
     responsibilities: [
