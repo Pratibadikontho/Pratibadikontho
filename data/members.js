@@ -112,6 +112,7 @@ export const members = [
     name: "MD. RUHUL AMIN",
     position: "Advisor",
     category: "Advisors",
+    image: "/images/MD. RUHUL AMIN.png",
     bio: "সমাজসেবা ও শিক্ষায় নিবেদিত, সংগঠনের উন্নয়নে সর্বদা অবদান রাখেন।",
     joinedDate: "2023",
     responsibilities: [
