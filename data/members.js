@@ -691,6 +691,7 @@ export const members = [
     name: "SIRAJUL ISLAM TAJUL",
     position: "General Member",
     category: "General Member",
+    image: "/images/taju.jpeg",
     bio: "মানবতার সেবায় নিবেদিত, সংগঠনের কার্যক্রম বাস্তবায়নে সক্রিয় একজন গর্বিত সদস্য",
     joinedDate: "2022",
     responsibilities: [
