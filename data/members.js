@@ -196,6 +196,7 @@ export const members = [
     name: "Md. Liton",
     position: "Vice President",
     category: "Executive Committee",
+    image: "/images/Md. Liton.png",
     bio: "সংগঠনের বিভিন্ন কমিটির কাজ সমন্বয় করেন এবং নেতৃত্বের দ্বিতীয় সারিতে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
@@ -211,6 +212,7 @@ export const members = [
     name: "Mamun Ahmed",
     position: "General Secretary",
     category: "Executive Committee",
+    image: "/images/Mamun Ahmed.png",
     bio: "সংগঠনের প্রশাসনিক কার্যক্রমের মূল পরিচালক। সকল সভার কার্যবিবরণী সংরক্ষণ ও দৈনন্দিন কার্যক্রম পরিচালনা করেন।",
     joinedDate: "2023",
     responsibilities: [
@@ -275,6 +277,7 @@ export const members = [
     name: "Md. Maksud",
     position: "Assistant Organizational Secretary",
     category: "Executive Committee",
+    image: "/images/Md. Maksud.jpeg",
     bio: "সাংগঠনিক সম্পাদকের সহযোগী হিসেবে সদস্য ব্যবস্থাপনা ও সংগঠন বিস্তারে কাজ করেন।",
     joinedDate: "2023",
     responsibilities: [
