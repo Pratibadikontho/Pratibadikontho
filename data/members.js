@@ -229,6 +229,7 @@ export const members = [
     name: "Md. Ripon",
     position: "Joint General Secretary",
     category: "Executive Committee",
+    image: "/images/Md. Ripon.png",
     bio: "সাধারণ সম্পাদকের সহযোগী হিসেবে প্রশাসনিক কাজে গুরুত্বপূর্ণ সহায়তা প্রদান করেন।",
     joinedDate: "2023",
     responsibilities: [
