@@ -242,6 +242,7 @@ export const members = [
     name: "Mainuddin Rasel",
     position: "Assistant General Secretary",
     category: "Executive Committee",
+    image: "images/Mainuddin Rasel.png"
     bio: "সংগঠনের বিভিন্ন কাজে সক্রিয়ভাবে অংশগ্রহণ করেন এবং প্রশাসনিক দলকে শক্তিশালী করেন।",
     joinedDate: "2023",
     responsibilities: [
