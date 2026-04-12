@@ -482,7 +482,7 @@ export const members = [
   },
   {
     id: "asraf",
-    name: "Asraf Siddque",
+    name: "Asraf Siddique",
     position: "Executive Member",
     category: "Executive Committee",
     image: "/images/asraf.png",
