@@ -196,6 +196,7 @@ export const members = [
     name: "Md. Liton",
     position: "Vice President",
     category: "Executive Committee",
+    image: "/images/Md. Liton.png",
     bio: "সংগঠনের বিভিন্ন কমিটির কাজ সমন্বয় করেন এবং নেতৃত্বের দ্বিতীয় সারিতে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
