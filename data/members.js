@@ -64,7 +64,7 @@ export const members = [
     name: "Md.Nasim Ahmed",
     position: "Advisor",
     category: "Advisors",
-    image: "/images/DELOWAR HOSSAIN LITON.png",
+    image: "/images/nasim.png",
     bio: "জনাব নাসিম আহমেদ একজন সম্মানিত প্রবাসী উপদেষ্টা, যিনি সমাজসেবামূলক কাজে অভিজ্ঞ এবং সংগঠনের উন্নয়নে গুরুত্বপূর্ণ ভূমিকা রাখছেন।",
     joinedDate: "2023",
     responsibilities: [
