@@ -377,6 +377,7 @@ export const members = [
     name: "Forrukh Ahmed Sumon",
     position: "Social Wellfare Secretary",
     category: "Executive Committee",
+    image: "/images/Forrukh Ahmed Sumon.png",
     bio: "সংগঠনের ক্রীড়া কার্যক্রম পরিচালনা করা।",
     joinedDate: "2023",
     responsibilities: [
