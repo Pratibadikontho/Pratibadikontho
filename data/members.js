@@ -311,6 +311,7 @@ export const members = [
     name: "Md. Ohid Ullah",
     position: "Office Secretary",
     category: "Executive Committee",
+    image: "/images/Md. Ohid Ullah.png",
     bio: "সংগঠনের অফিস ব্যবস্থাপনা ও দৈনন্দিন কার্যক্রম সুচারুভাবে পরিচালনার দায়িত্ব পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
