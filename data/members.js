@@ -327,6 +327,7 @@ export const members = [
     name: "Jasim Uddin",
     position: "Religious Affairs Secretary",
     category: "Executive Committee",
+    image: "/images/Jasim Uddin.png",
     bio: "সংগঠনের ধর্মীয় ও নৈতিক কার্যক্রম পরিচালনা করেন। ধর্মীয় অনুষ্ঠান ও সামাজিক সেবামূলক কাজে নেতৃত্ব দেন।",
     joinedDate: "2023",
     responsibilities: [
