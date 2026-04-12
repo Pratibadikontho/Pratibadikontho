@@ -294,6 +294,7 @@ export const members = [
     name: "Noor Alam",
     position: "Publicity Secretary",
     category: "Executive Committee",
+    image: "/images/Noor Alam.png",
     bio: "সংগঠনের প্রচার ও প্রকাশনা বিভাগ পরিচালনা করেন। সোশ্যাল মিডিয়া ও প্রচারমাধ্যমে সংগঠনের কার্যক্রম তুলে ধরেন।",
     joinedDate: "2023",
     responsibilities: [
