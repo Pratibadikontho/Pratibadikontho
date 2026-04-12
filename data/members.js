@@ -394,6 +394,7 @@ export const members = [
     name: "Md.Fazar Ali",
     position: "Sports Secretary",
     category: "Executive Committee",
+    image: "/images/Md.Fazar Ali.png",
     bio: "সংগঠনের সাংস্কৃতিক কার্যক্রম পরিচালনা করেন। সাংস্কৃতিক অনুষ্ঠান ও সামাজিক সেবামূলক কাজে নেতৃত্ব দেন।",
     joinedDate: "2023",
     responsibilities: [
