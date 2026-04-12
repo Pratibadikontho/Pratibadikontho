@@ -80,7 +80,7 @@ export const members = [
     name: "Md.Siddique Mia",
     position: "Advisor",
     category: "Advisors",
-    image: "/images/DELOWAR HOSSAIN LITON.png",
+    image: "/images/siddique.png",
     bio: "জনাব সিদ্দিক মিঞা একজন নিবেদিতপ্রাণ প্রবাসী উপদেষ্টা, যিনি সংগঠনের অগ্রগতিতে সক্রিয়ভাবে পরামর্শ ও সহযোগিতা প্রদান করছেন।",
     joinedDate: "2023",
     responsibilities: [
