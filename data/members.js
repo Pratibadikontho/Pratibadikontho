@@ -276,6 +276,7 @@ export const members = [
     name: "Md. Maksud",
     position: "Assistant Organizational Secretary",
     category: "Executive Committee",
+    image: "/images/Md. Maksud.jpeg",
     bio: "সাংগঠনিক সম্পাদকের সহযোগী হিসেবে সদস্য ব্যবস্থাপনা ও সংগঠন বিস্তারে কাজ করেন।",
     joinedDate: "2023",
     responsibilities: [
