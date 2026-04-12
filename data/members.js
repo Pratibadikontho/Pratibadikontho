@@ -498,8 +498,6 @@ export const members = [
     quote: "সংগঠনের শক্তি, কার্যকারী সদস্যের ঐক্য",
     address: "নোয়াখালী, বাংলাদেশ",
   },
-
-  /* ===================== MEMBERS ===================== */
   {
     id: "kholil",
     name: "MD.Kholilur Rahman",
