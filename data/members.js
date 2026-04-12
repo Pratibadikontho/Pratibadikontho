@@ -481,12 +481,12 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "suman",
-    name: "MD.JAHIRUL HAQ SUMAN",
+    id: "asraf",
+    name: "Asraf Siddque",
     position: "Executive Member",
     category: "Executive Committee",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
-    joinedDate: "2022",
+    joinedDate: "2025",
     responsibilities: [
       "সংগঠনের সিদ্ধান্ত বাস্তবায়ন করা",
       "বিভিন্ন কর্মসূচি পরিকল্পনা ও পরিচালনায় অংশগ্রহণ",
@@ -495,7 +495,7 @@ export const members = [
       "সংগঠনের সুনাম ও শৃঙ্খলা বজায় রাখা",
     ],
     quote: "সংগঠনের শক্তি, কার্যকারী সদস্যের ঐক্য",
-    address: "ঢাকা, বাংলাদেশ",
+    address: "নোয়াখালী, বাংলাদেশ",
   },
   /* ===================== MEMBERS ===================== */
   {
