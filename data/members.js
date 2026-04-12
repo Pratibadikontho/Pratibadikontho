@@ -431,6 +431,7 @@ export const members = [
     name: "MD.KAMAL HOSSAIN",
     position: "Executive Member",
     category: "Executive Committee",
+    image: "/images/MD.KAMAL HOSSAIN.png",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2022",
     responsibilities: [
