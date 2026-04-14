@@ -414,7 +414,7 @@ export const members = [
   /* ===================== ACTIVE MEMBERS ===================== */
   {
     id: "sultan",
-    name: "Md sultan",
+    name: "Md Sultan",
     position: "Executive Member",
     category: "Executive Committee",
     image: "/images/sultan.png",
