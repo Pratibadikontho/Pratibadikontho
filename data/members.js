@@ -62,8 +62,8 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "nasim",
-    name: "Md.Nasim Ahmed",
+    id: "Nasim",
+    name: "Md Nasim Ahmed",
     position: "Advisor",
     category: "Advisors",
     image: "/images/nasim.png",
