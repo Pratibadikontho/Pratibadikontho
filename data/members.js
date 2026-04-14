@@ -178,7 +178,7 @@ export const members = [
   },
   {
     id: "ismail",
-    name: "Md.Ismail Hossain",
+    name: "Md Ismail Hossain",
     position: "Senior Vice President",
     category: "Executive Committee",
     image: "/images/Md.Ismail Hossain.png",
@@ -195,7 +195,7 @@ export const members = [
   },
   {
     id: "md-liton",
-    name: "Md. Liton",
+    name: "Md Liton",
     position: "Vice President",
     category: "Executive Committee",
     image: "/images/Md. Liton.png",
