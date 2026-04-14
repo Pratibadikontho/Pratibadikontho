@@ -44,7 +44,7 @@ export default function AboutPage() {
               {'সংগঠনটির প্রতিষ্ঠাতা, সমাজসচেতন ব্যবসায়ী মোঃ আজিম মিঞা, বিশ্বাস করতেন—অন্যায়ের বিরুদ্ধে শুধু সমালোচনা নয়, প্রয়োজন সংগঠিত প্রতিরোধ ও ইতিবাচক উদ্যোগ। তার নেতৃত্বে একদল উদ্যমী তরুণ একত্রিত হয়ে গড়ে তোলে \'প্রতিবাদী কণ্ঠ\'।'}
             </p>
             <p>
-              {'Today, প্রতিবাদী কন্ঠ continues to grow with a dedicated team of officers and a supportive community of members. We welcome students from all backgrounds and disciplines who share our passion for making campus life extraordinary.'}
+              {'সময়ের পরিক্রমায় \'প্রতিবাদী কণ্ঠ\' শুধু একটি প্রতিবাদী সংগঠন হিসেবে সীমাবদ্ধ থাকেনি; এটি পরিণত হয়েছে একটি পূর্ণাঙ্গ মানবিক ও সামাজিক সংগঠনে। আমরা বিশ্বাস করি, সমাজ পরিবর্তনের জন্য প্রতিবাদের পাশাপাশি প্রয়োজন সহমর্মিতা ও সেবামূলক কার্যক্রম।'}
             </p>
           </div>
         </div>
