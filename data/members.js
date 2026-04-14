@@ -160,8 +160,8 @@ export const members = [
 
   /* ===================== EXECUTIVE COMMITTEE ===================== */
   {
-    id: "haji-md-azim-mia",
-    name: "Haji Md. Azim Mia",
+    id: "Haji-Md-Azim-Mia",
+    name: "Haji Md Azim Mia",
     position: "President",
     category: "Executive Committee",
     image: "/images/azim-mia.jpg",
