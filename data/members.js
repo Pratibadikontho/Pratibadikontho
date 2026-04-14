@@ -449,8 +449,8 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "sobuj",
-    name: "MD.ABU NASER SOBUJ",
+    id: "Sobuj",
+    name: "Md Abu Naser Sobuj",
     position: "Executive Member",
     category: "Executive Committee",
     image: "/images/MD.ABU NASER SOBUJ.png",
