@@ -194,7 +194,7 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "md-liton",
+    id: "Md-liton",
     name: "Md Liton",
     position: "Vice President",
     category: "Executive Committee",
