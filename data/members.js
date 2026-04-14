@@ -31,7 +31,7 @@ export const members = [
   /* ===================== ADVISORS ===================== */
   {
     id: "Pintu",
-    name: "MD PINTU AHMED",
+    name: "Md Pintu Ahmed",
     position: "Advisor",
     category: "Advisors",
     image: "/images/MD.PINTU AHMED.png",
