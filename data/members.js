@@ -310,7 +310,7 @@ export const members = [
   },
   {
     id: "md-ohid-ullah",
-    name: "Md. Ohid Ullah",
+    name: "Md Ohid Ullah",
     position: "Office Secretary",
     category: "Executive Committee",
     image: "/images/Md. Ohid Ullah.png",
