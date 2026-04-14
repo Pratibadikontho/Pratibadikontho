@@ -94,7 +94,7 @@ export const members = [
     address: "প্রবাসী",
   },
   {
-    id: "mannan",
+    id: "Mannan",
     name: "ABDUL MANNAN",
     position: "Advisor",
     category: "Advisors",
