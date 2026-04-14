@@ -95,7 +95,7 @@ export const members = [
   },
   {
     id: "Mannan",
-    name: "ABDUL MANNAN",
+    name: "Abdul Mannan",
     position: "Advisor",
     category: "Advisors",
     image: "/images/ABDUL MANNAN.png",
