@@ -127,7 +127,7 @@ export const members = [
   },
   {
     id: "joynal-molla",
-    name: "HAZI MOHAMMAD JOYNAL",
+    name: "Hazi Mohammad Joynal",
     position: "Advisor",
     category: "Advisors",
     image: "/images/HAZI MOHAMMAD JOYNAL.png",
