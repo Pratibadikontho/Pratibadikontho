@@ -25,6 +25,8 @@
  * ==============================================
  */
 
+import { Stint_Ultra_Expanded } from "next/font/google";
+
 export const members = [
   /* ===================== ADVISORS ===================== */
   {
@@ -415,7 +417,7 @@ export const members = [
     name: "MD.SULTAN",
     position: "Executive Member",
     category: "Executive Committee",
-    image: "/images/",
+    image: "/images/sultan.png",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2022",
     responsibilities: [
@@ -501,21 +503,21 @@ export const members = [
     address: "নোয়াখালী, বাংলাদেশ",
   },
   {
-  id: "kholil",
-  name: "MD.Kholilur Rahman",
-  position: "Executive Member",
-  category: "Active Members",
-  image: "/images/kholil.png",
-  bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
-  joinedDate: "2023",
-  responsibilities: [
-  "সংগঠনের সিদ্ধান্ত বাস্তবায়ন করা",
-  "বিভিন্ন কর্মসূচি পরিকল্পনা ও পরিচালনায় অংশগ্রহণ",
-  "সদস্যদের সাথে সমন্বয় ও যোগাযোগ রক্ষা",
-  "মানবিক ও সামাজিক কার্যক্রমে নেতৃত্ব প্রদান",
-  "সংগঠনের সুনাম ও শৃঙ্খলা বজায় রাখা",
-  ],
-  quote: "সংগঠনের শক্তি, কার্যকারী সদস্যের ঐক্য",
-  address: "নোয়াখালী, বাংলাদেশ",
+    id: "kholil",
+    name: "MD.Kholilur Rahman",
+    position: "Executive Member",
+    category: "Active Members",
+    image: "/images/kholil.png",
+    bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
+    joinedDate: "2023",
+    responsibilities: [
+      "সংগঠনের সিদ্ধান্ত বাস্তবায়ন করা",
+      "বিভিন্ন কর্মসূচি পরিকল্পনা ও পরিচালনায় অংশগ্রহণ",
+      "সদস্যদের সাথে সমন্বয় ও যোগাযোগ রক্ষা",
+      "মানবিক ও সামাজিক কার্যক্রমে নেতৃত্ব প্রদান",
+      "সংগঠনের সুনাম ও শৃঙ্খলা বজায় রাখা",
+    ],
+    quote: "সংগঠনের শক্তি, কার্যকারী সদস্যের ঐক্য",
+    address: "নোয়াখালী, বাংলাদেশ",
   },
 ];
