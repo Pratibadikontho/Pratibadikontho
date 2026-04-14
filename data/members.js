@@ -78,8 +78,8 @@ export const members = [
     address: "প্রবাসী",
   },
   {
-    id: "siddique",
-    name: "Md.Siddique Mia",
+    id: "Siddique",
+    name: "Md Siddique Mia",
     position: "Advisor",
     category: "Advisors",
     image: "/images/siddique.png",
