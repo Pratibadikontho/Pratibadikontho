@@ -41,11 +41,7 @@ export default function AboutPage() {
               {'প্রতিবাদী কণ্ঠ–এর যাত্রা শুরু হয়েছিল আমাদের এলাকার কিশোর গ্যাংয়ের অপতৎপরতা ও সামাজিক অবক্ষয়ের বিরুদ্ধে দৃঢ় অবস্থান নেওয়ার মধ্য দিয়ে। সমাজকে নিরাপদ ও সুশৃঙ্খল করার প্রত্যয় থেকেই এই সংগঠনের জন্ম।'}
             </p>
             <p>
-              Over the years, we have organized workshops, galas, sports
-              tournaments, and cultural events that have brought together
-              thousands of students from every department. Our events are
-              designed to help students develop leadership skills, build
-              professional networks, and create lasting memories.
+              {'সংগঠনটির প্রতিষ্ঠাতা, সমাজসচেতন ব্যবসায়ী মোঃ আজিম মিঞা, বিশ্বাস করতেন—অন্যায়ের বিরুদ্ধে শুধু সমালোচনা নয়, প্রয়োজন সংগঠিত প্রতিরোধ ও ইতিবাচক উদ্যোগ। তার নেতৃত্বে একদল উদ্যমী তরুণ একত্রিত হয়ে গড়ে তোলে \'প্রতিবাদী কণ্ঠ\'।'}
             </p>
             <p>
               {'Today, প্রতিবাদী কন্ঠ continues to grow with a dedicated team of officers and a supportive community of members. We welcome students from all backgrounds and disciplines who share our passion for making campus life extraordinary.'}
