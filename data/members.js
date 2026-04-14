@@ -503,8 +503,8 @@ export const members = [
     address: "নোয়াখালী, বাংলাদেশ",
   },
   {
-    id: "kholil",
-    name: "MD.Kholilur Rahman",
+    id: "Kholil",
+    name: "Md Kholilur Rahman",
     position: "Executive Member",
     category: "Active Members",
     image: "/images/kholil.png",
