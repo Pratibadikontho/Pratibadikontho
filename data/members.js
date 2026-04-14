@@ -431,8 +431,8 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "kamal",
-    name: "MD.KAMAL HOSSAIN",
+    id: "Kamal",
+    name: "Md Kamal Hossain",
     position: "Executive Member",
     category: "Executive Committee",
     image: "/images/MD.KAMAL HOSSAIN.png",
