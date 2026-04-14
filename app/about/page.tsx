@@ -38,7 +38,7 @@ export default function AboutPage() {
           </h2>
           <div className="mt-6 flex flex-col gap-4 leading-relaxed text-muted-foreground">
             <p>
-              {'প্রতিবাদী কন্ঠ was founded in 2023 by a group of passionate students who believed that university life should be more than just academics. What started as a small gathering of like-minded individuals has grown into one of the most active organizations on campus.'}
+              {'প্রতিবাদী কণ্ঠ–এর যাত্রা শুরু হয়েছিল আমাদের এলাকার কিশোর গ্যাংয়ের অপতৎপরতা ও সামাজিক অবক্ষয়ের বিরুদ্ধে দৃঢ় অবস্থান নেওয়ার মধ্য দিয়ে। সমাজকে নিরাপদ ও সুশৃঙ্খল করার প্রত্যয় থেকেই এই সংগঠনের জন্ম।'}
             </p>
             <p>
               Over the years, we have organized workshops, galas, sports
