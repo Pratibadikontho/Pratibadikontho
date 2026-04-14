@@ -177,7 +177,7 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "ismail",
+    id: "Ismail",
     name: "Md Ismail Hossain",
     position: "Senior Vice President",
     category: "Executive Committee",
@@ -228,7 +228,7 @@ export const members = [
   },
   {
     id: "md-ripon",
-    name: "Md. Ripon",
+    name: "Md Ripon",
     position: "Joint General Secretary",
     category: "Executive Committee",
     image: "/images/Md. Ripon.png",
