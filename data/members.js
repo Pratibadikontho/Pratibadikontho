@@ -467,8 +467,8 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "khokon",
-    name: "MD.HUMAYUN KABIR KHOKON",
+    id: "Khokon",
+    name: "Md Humayun Kabir Khokon",
     position: "Executive Member",
     category: "Executive Committee",
     image: "/images/MD. HUMAYUN KABIR KHOKON.jpeg",
