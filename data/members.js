@@ -393,8 +393,8 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "ali",
-    name: "Md.Fazar Ali",
+    id: "Ali",
+    name: "Md Fazar Ali",
     position: "Sports Secretary",
     category: "Executive Committee",
     image: "/images/Md.Fazar Ali.png",
