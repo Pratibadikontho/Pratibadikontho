@@ -46,8 +46,8 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "liton",
-    name: "DELOWAR HOSSAIN LITON",
+    id: "Liton",
+    name: "Delowar Hossain Liton",
     position: "Advisor",
     category: "Advisors",
     image: "/images/DELOWAR HOSSAIN LITON.png",
