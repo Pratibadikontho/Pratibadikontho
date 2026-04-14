@@ -30,8 +30,8 @@ import { Stint_Ultra_Expanded } from "next/font/google";
 export const members = [
   /* ===================== ADVISORS ===================== */
   {
-    id: "pintu",
-    name: "MD.PINTU AHMED",
+    id: "Pintu",
+    name: "MD PINTU AHMED",
     position: "Advisor",
     category: "Advisors",
     image: "/images/MD.PINTU AHMED.png",
