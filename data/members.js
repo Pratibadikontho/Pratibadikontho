@@ -344,6 +344,7 @@ export const members = [
     name: "NUR ALAM RAFI",
     position: "Treasurer",
     category: "Executive Committee",
+    image: "/images/MD.KAMAL HOSSAIN.png",
     bio: "কোষাধ্যক্ষ হলেন সংগঠনের আর্থিক দায়িত্বপ্রাপ্ত কর্মকর্তা। তিনি আয়-ব্যয়ের হিসাব সংরক্ষণ, তহবিল পরিচালনা এবং আর্থিক স্বচ্ছতা নিশ্চিত করেন।",
     joinedDate: "2023",
     responsibilities: [
