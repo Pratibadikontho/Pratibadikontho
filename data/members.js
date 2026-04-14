@@ -111,7 +111,7 @@ export const members = [
   },
   {
     id: "shahadat",
-    name: "MD. SAHADAT HOSSAIN",
+    name: "Md Sahadat Hossain",
     position: "Advisor",
     category: "Advisors",
     image: "/images/MD. SAHADAT HOSSAIN.jpeg",
