@@ -277,7 +277,7 @@ export const members = [
   },
   {
     id: "md-maksud",
-    name: "Md. Maksud",
+    name: "Md Maksud",
     position: "Assistant Organizational Secretary",
     category: "Executive Committee",
     image: "/images/Md. Maksud.jpeg",
