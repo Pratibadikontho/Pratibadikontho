@@ -142,8 +142,8 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "md-ruhul-amin",
-    name: "MD. RUHUL AMIN",
+    id: "Md-Ruhul-Amin",
+    name: "Md Ruhul Amin",
     position: "Advisor",
     category: "Advisors",
     image: "/images/MD. RUHUL AMIN.png",
