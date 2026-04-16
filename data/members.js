@@ -541,7 +541,7 @@ export const members = [
   {
     id: "mostofa",
     name: "Md Mostofa",
-    position: "General Member",
+    position: "General Members",
     category: "Active Members",
     image: "/images/mostofa.jpeg",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
@@ -557,9 +557,9 @@ export const members = [
     address: "নোয়াখালী, বাংলাদেশ",
   },
   {
-    id: "kholilur-rahman",
-    name: "Md Kholilur Rahman",
-    position: "Executive Member",
+    id: "Fokrul",
+    name: "Md Fokrul Alam Sarker",
+    position: "General Member",
     category: "Active Members",
     image: "/images/kholil.png",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
