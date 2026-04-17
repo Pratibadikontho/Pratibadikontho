@@ -737,11 +737,11 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "kholilur-rahman",
-    name: "Md Kholilur Rahman",
-    position: "Executive Member",
+    id: "Zilani",
+    name: "Abdul Kader Zilani",
+    position: "General Member",
     category: "Active Members",
-    image: "/images/kholil.png",
+    image: "/images/zilani.png",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
@@ -752,7 +752,7 @@ export const members = [
       "সংগঠনের সুনাম ও শৃঙ্খলা বজায় রাখা",
     ],
     quote: "সংগঠনের শক্তি, কার্যকারী সদস্যের ঐক্য",
-    address: "নোয়াখালী, বাংলাদেশ",
+    address: "ঢাকা, বাংলাদেশ",
   },
   {
     id: "kholilur-rahman",
