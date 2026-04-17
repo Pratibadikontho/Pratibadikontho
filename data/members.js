@@ -577,8 +577,8 @@ export const members = [
   {
     id: "Zobayer",
     name: "Abdullah Al Zubayer",
-    position: "Executive Member",
-    category: "General Members",
+    position: "General Member",
+    category: "Active Members",
     image: "/images/zobayer.jpeg",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
