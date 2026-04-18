@@ -953,11 +953,11 @@ export const members = [
     address: "নোয়াখালী, বাংলাদেশ",
   },
   {
-    id: "Helal",
-    name: "Md Helal Uddin",
+    id: "Riyad",
+    name: "Abdur Rohim Riyad",
     position: "General Member",
     category: "Active Members",
-    image: "/images/md.helal uddin.png",
+    image: "/images/riyad.jpeg",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
@@ -971,11 +971,11 @@ export const members = [
     address: "নোয়াখালী, বাংলাদেশ",
   },
   {
-    id: "Helal",
-    name: "Md Helal Uddin",
+    id: "Mohid Uddin",
+    name: "Md Mohin Uddin",
     position: "General Member",
     category: "Active Members",
-    image: "/images/md.helal uddin.png",
+    image: "/images/md.mohin uddin.png",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
