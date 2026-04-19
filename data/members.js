@@ -1223,11 +1223,11 @@ export const members = [
     address: "নোয়াখালী, বাংলাদেশ",
   },
   {
-    id: "Helal",
-    name: "Md Helal Uddin",
+    id: "Tajul",
+    name: "Md Tajul Islam",
     position: "General Member",
     category: "Active Members",
-    image: "/images/md.helal uddin.png",
+    image: "/images/tajul islam.png",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
