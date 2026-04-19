@@ -1440,7 +1440,7 @@ export const members = [
   },
   {
     id: "yousuf",
-    name: "Md Yousuf",
+    name: "Late Md Yousuf",
     position: "General Member",
     category: "Active Members",
     image: "/images/usuf.jpeg",
