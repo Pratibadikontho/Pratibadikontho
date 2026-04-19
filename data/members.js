@@ -1151,11 +1151,11 @@ export const members = [
     address: "ঢাকা, বাংলাদেশ",
   },
   {
-    id: "Helal",
-    name: "Md Helal Uddin",
+    id: "Ruhul",
+    name: "Md Ruhul Amim (A+)",
     position: "General Member",
     category: "Active Members",
-    image: "/images/md.helal uddin.png",
+    image: "/images/ruhul amin.png",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
