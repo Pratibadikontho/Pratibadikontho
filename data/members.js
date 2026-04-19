@@ -1224,7 +1224,7 @@ export const members = [
   },
   {
     id: "Tajul",
-    name: "Md Tajul Islam",
+    name: "Md Tajul Islam (O-)",
     position: "General Member",
     category: "Active Members",
     image: "/images/tajul islam.png",
