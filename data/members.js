@@ -1079,8 +1079,8 @@ export const members = [
     address: "কুমিল্লা, বাংলাদেশ",
   },
   {
-    id: "Helal",
-    name: "Md Helal Uddin",
+    id: "Adel",
+    name: "Md Jahangir Adel (AB-)",
     position: "General Member",
     category: "Active Members",
     image: "/images/md.helal uddin.png",
@@ -1094,7 +1094,7 @@ export const members = [
       "সংগঠনের সুনাম ও শৃঙ্খলা বজায় রাখা",
     ],
     quote: "সংগঠনের শক্তি, কার্যকারী সদস্যের ঐক্য",
-    address: "নোয়াখালী, বাংলাদেশ",
+    address: "ঢাকা, বাংলাদেশ",
   },
   {
     id: "Helal",
