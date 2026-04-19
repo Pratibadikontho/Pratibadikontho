@@ -1098,7 +1098,7 @@ export const members = [
   },
   {
     id: "Main",
-    name: "Md Mainuddin",
+    name: "Md Mainuddin (AB+)",
     position: "General Member",
     category: "Active Members",
     image: "/images/md.main uddin.png",
