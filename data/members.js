@@ -344,8 +344,8 @@ export const members = [
   {
     id: "Tanvir",
     name: "Tanvirur Rohim",
-    position: "General Member",
-    category: "General Member",
+    position: "Treasurer",
+    category: "Executive Committee",
     image: "/images/tanvir.png",
     bio: "কোষাধ্যক্ষ হলেন সংগঠনের আর্থিক দায়িত্বপ্রাপ্ত কর্মকর্তা। তিনি আয়-ব্যয়ের হিসাব সংরক্ষণ, তহবিল পরিচালনা এবং আর্থিক স্বচ্ছতা নিশ্চিত করেন।",
     joinedDate: "2023",
@@ -356,7 +356,7 @@ export const members = [
       "আর্থিক স্বচ্ছতা ও জবাবদিহিতা বজায় রাখা",
     ],
     quote: "স্বচ্ছ হিসাব, শক্ত ভিত্তি",
-    address: "ঢাকা, বাংলাদেশ",
+    address: "নোয়াখালী, বাংলাদেশ",
   },
   {
     id: "hasibur",
