@@ -1299,7 +1299,7 @@ export const members = [
     name: "Hasna Akter Sorna",
     position: "General Member",
     category: "Active Members",
-    image: "/images/sorna.jpeg",
+    image: "/images/rose.jpeg",
     bio: "কার্যকারী সদস্য সংগঠনের সিদ্ধান্ত বাস্তবায়ন, কর্মসূচি পরিচালনা ও সদস্যদের সমন্বয়ে গুরুত্বপূর্ণ ভূমিকা পালন করেন।",
     joinedDate: "2023",
     responsibilities: [
