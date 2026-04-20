@@ -84,7 +84,7 @@ export const events = [
     ]
   },
   {
-    id: "cultural-night-2025",
+    id: "Social Welfare 2021",
     title: "অসহায় পরিবারের পাশে ‘প্রতিবাদী কন্ঠ’ — মরহুম ওজিউল্লাহ’র মরদেহ পরিবহনে সহায়তা",
     date: "March 12, 2025",
     time: "5:00 PM - 10:00 PM",
