@@ -64,23 +64,23 @@ export const events = [
   },
   {
     id: "inter-university-sports-tournament",
-    title: "Inter-University Sports Tournament",
-    date: "May 10-12, 2025",
-    time: "8:00 AM - 6:00 PM",
-    location: "University Sports Complex",
-    image: "/images/event-sports.jpg",
+    title: "মাদ্রাসার হাফেজ শিক্ষার্থীদের সম্মাননা প্রদান — প্রতিবাদী কন্ঠ",
+    date: "January 30, 2022",
+    time: "8:00 PM - 1:00 AM",
+    location: "১০নং নরোত্তমপুর, ডাকঘর: পন্ডিত বাজার থানা: বেগমগঞ্জ, জেলা: নোয়াখালী। মৌলভী কলিম উল্যাহ ছাহেবের মসজিদ সংলগ্ন",
+    image: "/images/waj1.jpeg",
     upcoming: true,
     category: "Sports",
-    description: "Get ready for three days of competitive fun and school spirit! The Inter-University Sports Tournament brings together teams from 10 universities to compete in basketball, volleyball, badminton, and track events. Whether you are playing or cheering from the stands, this is the most exciting sporting event of the year. Come support your team and be part of the action!",
+    description: "মাহফিল অনুষ্ঠানে প্রতিবাদী কন্ঠ সংগঠনের পক্ষ থেকে মাদ্রাসার হাফেজ শিক্ষার্থীদের সম্মাননা প্রদান করা হয়। অনুষ্ঠানে হাফেজদের হাতে নগদ অর্থ ও শিক্ষা সামগ্রী তুলে দেওয়া হয়।এই উদ্যোগের উদ্দেশ্য ছিল ধর্মীয় শিক্ষায় শিক্ষার্থীদের আরও উৎসাহিত করা এবং তাদের পরিশ্রম ও অর্জনকে সম্মান জানানো। সংগঠনটি ভবিষ্যতেও শিক্ষা ও মানবিক উন্নয়নে এমন কার্যক্রম অব্যাহত রাখার প্রত্যয় ব্যক্ত করেছে!",
     highlights: [
-      "Teams from 10 universities competing",
-      "Events: basketball, volleyball, badminton, track & field",
-      "Opening ceremony with marching band",
-      "Trophies and medals for top performers"
+      "মাহফিলের মাধ্যমে হাফেজ শিক্ষার্থীদের সম্মাননা প্রদান",
+      "",
+      "ধর্মীয় শিক্ষায় উৎসাহ প্রদানের উদ্যোগ",
+      "প্রতিবাদী কন্ঠের মানবিক ও শিক্ষাবান্ধব কার্যক্রম"
     ],
     gallery: [
-      "/images/event-sports.jpg",
-      "/images/event-workshop.jpg"
+      "/images/waj2.jpeg",
+      "/images/waj3.jpeg"
     ]
   },
   {
