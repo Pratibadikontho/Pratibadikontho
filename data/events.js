@@ -22,23 +22,23 @@
 export const events = [
   {
     id: "leadership-workshop-2025",
-    title: "Leadership Workshop 2025",
-    date: "March 15, 2025",
-    time: "9:00 AM - 4:00 PM",
-    location: "Main Auditorium, Building A",
-    image: "/images/event-workshop.jpg",
+    title: "জাঁকজমকপূর্ণ আয়োজনে ‘প্রতিবাদী কন্ঠ’ মানবিক সংগঠনের উদ্বোধন",
+    date: "December 19, 2021",
+    time: "2:00 PM - 11:00 PM",
+    location: "১০নং নরোত্তমপুর, ডাকঘর: পন্ডিত বাজার থানা: বেগমগঞ্জ, জেলা: নোয়াখালী। মৌলভী কলিম উল্যাহ ছাহেবের মসজিদ সংলগ্ন",
+    image: "/images/pk1.jpeg",
     upcoming: true,
     category: "Workshop",
-    description: "Join us for an intensive leadership workshop designed to develop your skills as a student leader. This full-day event features interactive sessions led by industry professionals, group activities, and networking opportunities. Whether you are a seasoned leader or just getting started, this workshop will equip you with the tools and knowledge to make a real impact on campus and beyond.",
+    description: "১৯ ডিসেম্বর ২০২১ তারিখে  ১০নং নরোত্তমপুর, ডাকঘর: পন্ডিত বাজার থানা: বেগমগঞ্জ, জেলা: নোয়াখালী।মৌলভী কলিম উল্যাহ ছাহেবের মসজিদ সংলগ্ন এ এক আনন্দঘন ও জাঁকজমকপূর্ণ আয়োজনের মধ্য দিয়ে প্রতিবাদী কন্ঠ মানবিক সংগঠনের উদ্বোধন অনুষ্ঠিত হয়।উদ্বোধনী অনুষ্ঠানে স্থানীয় গণ্যমান্য ব্যক্তিবর্গ, সমাজসেবক, তরুণ স্বেচ্ছাসেবক এবং বিভিন্ন শ্রেণিপেশার মানুষ উপস্থিত ছিলেন। অনুষ্ঠানে সংগঠনের লক্ষ্য, উদ্দেশ্য ও ভবিষ্যৎ পরিকল্পনা তুলে ধরা হয়।সংগঠনের প্রতিষ্ঠাতা ও দায়িত্বশীলরা জানান, ‘প্রতিবাদী কন্ঠ’ সবসময় অসহায়, সুবিধাবঞ্চিত ও দরিদ্র মানুষের পাশে দাঁড়াতে কাজ করবে। শিক্ষা, স্বাস্থ্য, মানবিক সহায়তা এবং সামাজিক সচেতনতা বৃদ্ধির মতো বিভিন্ন কার্যক্রম পরিচালনার পরিকল্পনাও তুলে ধরা হয়।অনুষ্ঠানে দোয়া ও মোনাজাতের মাধ্যমে সংগঠনের সফলতা কামনা করা হয় এবং সকলের সহযোগিতা ও সমর্থন প্রত্যাশা করা হয়.",
     highlights: [
-      "Keynote speech by CEO of GlobalTech",
-      "Interactive breakout sessions on communication and teamwork",
-      "Networking lunch with industry professionals",
-      "Certificate of completion for all attendees"
+      "প্রতিবাদী কন্ঠ’ মানবিক সংগঠনের জাঁকজমকপূর্ণ উদ্বোধন সম্পন্ন—মানবতার সেবায় নতুন পথচলা শুরু",
+      "মানবতার সেবায় প্রতিশ্রুতিবদ্ধ ‘প্রতিবাদী কন্ঠ’—উদ্বোধনের মাধ্যমে আনুষ্ঠানিক যাত্রা শুরু",
+      "সামাজিক উন্নয়ন ও মানবিক সহায়তায় এগিয়ে যেতে উদ্বোধন হলো ‘প্রতিবাদী কন্ঠ’ সংগঠনের",
+      "প্রতিবাদী কন্ঠ’—মানবতার পথে নতুন যাত্রা"
     ],
     gallery: [
-      "/images/event-workshop.jpg",
-      "/images/event-gala.jpg"
+      "/images/pk2.jpeg",
+      "/images/pk3.jpeg"
     ]
   },
   {
