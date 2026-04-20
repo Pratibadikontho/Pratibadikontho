@@ -110,12 +110,14 @@ export default function AboutPage() {
           </div>
           <ul className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
             {[
-              "Develop real-world leadership and teamwork skills",
-              "Build a professional network with students and industry leaders",
-              "Gain hands-on experience in event planning and management",
-              "Access exclusive workshops, seminars, and training sessions",
-              "Be part of a diverse and welcoming community",
-              "Create lasting friendships and unforgettable memories",
+              "অন্যায়ের বিরুদ্ধে সোচ্চার হওয়ার সুযোগ,সত্য ও ন্যায়ের পক্ষে দাঁড়িয়ে সমাজ পরিবর্তনের অংশ হতে পারবেন",
+              "মানবিক সেবায় সরাসরি অংশগ্রহণ খাদ্য, বস্ত্র, স্বাস্থ্যসেবা ও যাকাত কার্যক্রমে সরাসরি কাজ করার সুযোগ",
+              "নেতৃত্ব ও দলগত দক্ষতা অর্জন ,বাস্তব অভিজ্ঞতার মাধ্যমে নেতৃত্বগুণ ও টিমওয়ার্ক উন্নত করার সুযোগ",
+              "সামাজিক সচেতনতা বৃদ্ধি ,কিশোর গ্যাং প্রতিরোধ ও নৈতিক মূল্যবোধ গড়ে তুলতে কাজ করার সুযোগ",
+              "ধর্মীয় ও নৈতিক কার্যক্রমে সম্পৃক্ততা ,ইতিবাচক ও মূল্যবোধভিত্তিক পরিবেশে নিজেকে গড়ে তোলার সুযোগ",
+              "খেলাধুলা ও ইতিবাচক কার্যক্রমে অংশগ্রহণ ,তরুণদের জন্য ক্রীড়া ও গঠনমূলক উদ্যোগে যুক্ত হওয়ার সুযোগ",
+              "সমমনা মানুষের শক্তিশালী নেটওয়ার্ক,একটি দায়িত্বশীল ও সচেতন কমিউনিটির অংশ হওয়ার সুযোগ",
+              "সমাজে ইতিবাচক প্রভাব তৈরির সুযোগ,নিজের কাজের মাধ্যমে বাস্তব পরিবর্তন আনার গর্ব অনুভব করবেন",
             ].map((item) => (
               <li
                 key={item}
