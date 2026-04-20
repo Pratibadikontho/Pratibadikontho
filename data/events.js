@@ -85,23 +85,23 @@ export const events = [
   },
   {
     id: "cultural-night-2025",
-    title: "Cultural Night 2025",
-    date: "June 5, 2025",
+    title: "অসহায় পরিবারের পাশে ‘প্রতিবাদী কন্ঠ’ — মরহুম ওজিউল্লাহ’র মরদেহ পরিবহনে সহায়তা",
+    date: "March 12, 2025",
     time: "5:00 PM - 10:00 PM",
-    location: "Open Air Theatre, Central Campus",
-    image: "/images/event-cultural.jpg",
+    location: "প্রতিবাদী কন্ঠ প্রধান কার্যালয়, ৬৫/৩ ওয়াটার ওয়ার্কস রোড চকবাজার ঢাকা",
+    image: "/images/onudan.jpeg",
     upcoming: true,
     category: "Cultural",
-    description: "Cultural Night is a celebration of the diverse cultures represented in our university community. Students showcase traditional dances, songs, fashion, and cuisine from around the world. This beloved annual event fosters cross-cultural understanding and brings the entire campus together in a vibrant display of unity and creativity. Food stalls, art exhibitions, and live performances make this an unforgettable evening.",
+    description: "নোয়াখালী জেলার সোনাইমুড়ি থানাধীন বজরা ইউনিয়নের শাকেরপুর গ্রামের সাপরাশি বাড়ির বাসিন্দা মরহুম ওজিউল্লাহ ঢাকা মেডিকেল কলেজ হাসপাতালে ইন্তেকাল করেন। মরহুমের পরিবার আর্থিকভাবে অসচ্ছল হওয়ায় তাঁর মরদেহ নিজ গ্রামের বাড়িতে নেওয়ার জন্য প্রয়োজনীয় অ্যাম্বুলেন্স ভাড়া বহন করা তাদের পক্ষে সম্ভব হচ্ছিল না।এমন পরিস্থিতিতে ‘প্রতিবাদী কন্ঠ’ মানবিক সংগঠন এগিয়ে আসে এবং মরদেহ পরিবহনের জন্য অ্যাম্বুলেন্স ভাড়া বাবদ নগদ অর্থ সহায়তা প্রদান করে। .",
     highlights: [
-      "Traditional dance performances from 15+ cultures",
-      "International food court with 20+ stalls",
-      "Art and photography exhibition",
-      "Fashion show featuring traditional attire"
+      "সংগঠনের পক্ষ থেকে জানানো হয়, সমাজের অসহায় ও সুবিধাবঞ্চিত মানুষের পাশে দাঁড়ানোই তাদের প্রধান লক্ষ্য",
+      "ভবিষ্যতেও এ ধরনের মানবিক কার্যক্রম অব্যাহত রাখার প্রত্যয় ব্যক্ত করা হয়",
+      "সংগঠনের এই মানবিক উদ্যোগ যেন অব্যাহত রাখা যায়, সে জন্য সকলের কাছে দোয়া কামনা করা হয়েছে",
+      "মানবতার সেবায় আমরা সবসময় প্রস্তুত"
     ],
     gallery: [
-      "/images/event-cultural.jpg",
-      "/images/event-gala.jpg"
+      "/images/emer.jpeg",
+      "/images/ambu.jpeg"
     ]
   }
 ];
