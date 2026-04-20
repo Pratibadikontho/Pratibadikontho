@@ -43,23 +43,23 @@ export const events = [
   },
   {
     id: "annual-charity-gala",
-    title: "Annual Charity Gala",
-    date: "April 20, 2025",
-    time: "6:00 PM - 11:00 PM",
-    location: "Grand Ballroom, University Hotel",
-    image: "/images/event-gala.jpg",
+    title: "আন্তর্জাতিক মাতৃভাষা ও শহীদ দিবসে প্রতিবাদী কন্ঠ-এর র‍্যালি",
+    date: "February 21, 2022",
+    time: "06:00 AM - 11:00 AM",
+    location: "১০নং নরোত্তমপুর, ডাকঘর: পন্ডিত বাজার থানা: বেগমগঞ্জ, জেলা: নোয়াখালী। মৌলভী কলিম উল্যাহ ছাহেবের মসজিদ সংলগ্ন",
+    image: "/images/reli1.jpeg",
     upcoming: true,
     category: "Gala",
-    description: "The Annual Charity Gala is our flagship event that brings together students, faculty, alumni, and community leaders for an evening of elegance and giving. This year, all proceeds will go towards the Student Emergency Fund, which provides financial assistance to students in need. Enjoy a gourmet dinner, live entertainment, and silent auction while supporting a great cause.",
+    description: "আন্তর্জাতিক মাতৃভাষা ও শহীদ দিবস উপলক্ষে প্রতিবাদী কন্ঠ সংগঠনের উদ্যোগে একটি র‍্যালি আয়োজন করা হয়। কর্মসূচিতে সংগঠনের সদস্য ও স্থানীয় তরুণরা অংশগ্রহণ করে ব্যানার হাতে নিয়ে এলাকার বিভিন্ন সড়ক প্রদক্ষিণ করেন এবং ভাষা শহীদদের প্রতি শ্রদ্ধা নিবেদন করেন।র‍্যালিটি ছিল ভাষার মর্যাদা রক্ষা, দেশপ্রেম জাগ্রত করা এবং নতুন প্রজন্মের মধ্যে সচেতনতা ছড়িয়ে দেওয়ার একটি গুরুত্বপূর্ণ প্রয়াস। সংগঠনটি ভবিষ্যতেও এ ধরনের জাতীয় ও সামাজিক কর্মসূচিতে সক্রিয় ভূমিকা পালন করার প্রত্যয় ব্যক্ত করে.",
     highlights: [
-      "Gourmet three-course dinner",
-      "Live music performance by the University Jazz Band",
-      "Silent auction with premium items",
-      "All proceeds go to the Student Emergency Fund"
+      "২১ ফেব্রুয়ারি উপলক্ষে সম্মাননা ও সচেতনতামূলক র‍্যালি",
+      "",
+      "ভাষা শহীদদের প্রতি শ্রদ্ধা জানিয়ে তরুণদের অংশগ্রহণ",
+      "ব্যানার ও স্লোগানে মুখরিত হয় পুরো এলাকা"
     ],
     gallery: [
-      "/images/event-gala.jpg",
-      "/images/event-cultural.jpg"
+      "/images/reli2.jpeg",
+      "/images/reli3.jpeg"
     ]
   },
   {
