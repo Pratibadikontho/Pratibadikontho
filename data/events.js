@@ -21,7 +21,7 @@
 
 export const events = [
   {
-    id: "Organization Event -2021",
+    id: "organization-event-2021",
     title: "জাঁকজমকপূর্ণ আয়োজনে ‘প্রতিবাদী কন্ঠ’ মানবিক সংগঠনের উদ্বোধন",
     date: "ডিসেম্বর ১৯, ২০২১",
     time: "২:০০ PM - ১১:০০ PM",
@@ -42,7 +42,7 @@ export const events = [
     ]
   },
   {
-    id: "National Programs",
+    id: "national-programs-2022",
     title: "আন্তর্জাতিক মাতৃভাষা ও শহীদ দিবসে প্রতিবাদী কন্ঠ-এর র‍্যালি",
     date: "ফেব্রুয়ারী ২১, ২০২২",
     time: "0৬:00 AM - ১১:00 AM",
@@ -63,11 +63,11 @@ export const events = [
     ]
   },
   {
-    id: "Education & Religious Support",
+    id: "education-religious-support-2022",
     title: "মাদ্রাসার হাফেজ শিক্ষার্থীদের সম্মাননা প্রদান — প্রতিবাদী কন্ঠ",
     date: "জানুয়ারী ৩০, ২০২২",
     time: "৮:00 PM - ১:00 AM",
-    location: "১০নং নরোত্তমপুর, ডাকঘর: পন্ডিত বাজার থানা: বেগমগঞ্জ, জেলা: নোয়াখালী। মৌলভী কলিম উল্যাহ ছাহেবের মসজিদ সংলগ্ন",
+    location: "১০নং নরোত্তমপুর, ডাকঘর: পন্ডিত বাজার থানা: বেগমগঞ্জ, জেলা: ন���য়াখালী। মৌলভী কলিম উল্যাহ ছাহেবের মসজিদ সংলগ্ন",
     image: "/images/waj1.jpeg",
     upcoming: true,
     category: "শিক্ষা ও ধর্মীয় সহায়তা",
@@ -84,7 +84,7 @@ export const events = [
     ]
   },
   {
-    id: "Social Welfare 2021",
+    id: "social-welfare-2025",
     title: "অসহায় পরিবারের পাশে ‘প্রতিবাদী কন্ঠ’ — মরহুম ওজিউল্লাহ’র মরদেহ পরিবহনে সহায়তা",
     date: "March 12, 2025",
     time: "5:00 PM - 10:00 PM",
