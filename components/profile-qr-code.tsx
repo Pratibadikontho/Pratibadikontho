@@ -16,7 +16,7 @@ import { Download } from "lucide-react";
  * 3. The "Download QR Code" button grabs the canvas and saves it as a PNG
  *
  * PROPS:
- * - url: The full URL to encode in the QR code (e.g., "https://v0-protibadikontho.vercel.app/")
+ * - url: The full URL to encode in the QR code (e.g., "https://www.protibadikontho.com/")
  * - memberName: The member's name (used for the downloaded file name)
  */
 export default function ProfileQRCode({
