@@ -12,7 +12,7 @@ import { Download } from "lucide-react";
  */
 export default function SiteQRCode() {
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://v0-protibadikontho.vercel.app/";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.protibadikontho.com/";
   const qrRef = useRef<HTMLDivElement>(null);
 
   const handleDownload = useCallback(() => {
