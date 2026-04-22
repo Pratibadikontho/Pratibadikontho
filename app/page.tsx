@@ -148,7 +148,7 @@ export default function HomePage() {
                 Members
               </h2>
               <p className="mt-2 text-muted-foreground">
-                The people behind the club
+                The people behind the organization
               </p>
             </div>
             <Link
