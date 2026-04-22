@@ -124,6 +124,6 @@ export const events = [
       "/images/emer.jpeg",
       "/images/ambu.jpeg"
     ]
-  }
+  },
 
 ];
