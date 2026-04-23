@@ -163,8 +163,8 @@ export const events = [
       "নতুন কমিটির সদস্যদের উদ্যোগে সুশৃঙ্খল আয়োজন"
     ],
     gallery: [
-      "/images/emer.jpeg",
-      "/images/ambu.jpeg"
+      "/images/iftar benar.jpeg",
+      "/images/iftar paty.jpeg"
     ]
   },
   {
