@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Calendar, Users, Star, User, Video } from "lucide-react";
+import { ArrowRight, Calendar, Users, Star, User } from "lucide-react";
+import { HeroSection } from "@/components/hero-section";
 import { members } from "@/data/members";
 import { events } from "@/data/events";
 
@@ -19,41 +20,16 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* =================== HERO SECTION =================== */}
-      <section className="relative flex min-h-[520px] items-center justify-center overflow-hidden">
-        {/* Background image */}
-        <Video
-          src="/images/cover a.mp4"
-          alt="প্রতিবাদী কন্ঠ decorative background"
-          fill
-          className="object-cover"
-          priority
-        />
-
-        {/* Hero content */}
-        <div className="relative z-10 mx-auto max-w-3xl px-6 py-20 text-center">
-          <h1 className="text-4xl font-bold uppercase leading-tight tracking-wide text-[#e74c3c] md:text-5xl lg:text-7xl text-balance" style={{ fontFamily: 'var(--font-oswald), sans-serif' }}>
-            {'প্রতিবাদী কন্ঠ'}
-          </h1>
-          <p className="mx-auto mt-4 max-w-xl text-base font-medium leading-relaxed text-foreground/80 md:text-lg">
-            {'প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ'}
-          </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <Link
-              href="/events"
-              className="inline-flex items-center gap-2 rounded-lg bg-[#e74c3c] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#c0392b]"
-            >
-              Events
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-            <Link
-              href="/members"
-              className="inline-flex items-center gap-2 rounded-lg border-2 border-[#e74c3c] px-6 py-3 text-sm font-semibold text-[#e74c3c] transition-colors hover:bg-[#e74c3c]/10"
-            >
-              Members
-            </Link>
-          </div>
-        </div>
-      </section>
+      <HeroSection
+        videoSrc="/images/cover a.mp4"
+        title="প্রতিবাদী কন্ঠ"
+        subtitle="প্রতিবাদী কন্ঠ গুলো বাঁধবে জোট, অন্যায় হবে প্রতিরোধ"
+        primaryButtonText="Events"
+        primaryButtonLink="/events"
+        secondaryButtonText="Members"
+        secondaryButtonLink="/members"
+        titleColor="#e74c3c"
+      />
 
       {/* =================== STATS SECTION =================== */}
       <section className="border-b border-border bg-card py-12">
