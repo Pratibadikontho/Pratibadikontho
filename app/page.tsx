@@ -22,7 +22,7 @@ export default function HomePage() {
       <section className="relative flex min-h-[520px] items-center justify-center overflow-hidden">
         {/* Background image */}
         <Image
-          src="/images/hero-cover.jpg"
+          src="/images/cover a.mp4"
           alt="প্রতিবাদী কন্ঠ decorative background"
           fill
           className="object-cover"
