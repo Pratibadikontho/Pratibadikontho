@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Calendar, Users, Star, User } from "lucide-react";
+import { ArrowRight, Calendar, Users, Star, User, Video } from "lucide-react";
 import { members } from "@/data/members";
 import { events } from "@/data/events";
 
@@ -21,7 +21,7 @@ export default function HomePage() {
       {/* =================== HERO SECTION =================== */}
       <section className="relative flex min-h-[520px] items-center justify-center overflow-hidden">
         {/* Background image */}
-        <Image
+        <Video
           src="/images/cover a.mp4"
           alt="প্রতিবাদী কন্ঠ decorative background"
           fill
